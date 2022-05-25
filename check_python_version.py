@@ -93,6 +93,7 @@ def check_python_version():
 
 
 if __name__ == '__main__':
-  check_python_version()
-
+  check = check_python_version()
+  if check == None:
+    print('Python Check Passed')
 
